@@ -46,5 +46,6 @@ The project takes input in form of request body and outputs response as an array
     ]
 }
 6. Reason for the response: there are 3 events in the request body, out of which "abc" and "xyz" are the only events for which duration results in >=4ms calculated from STARTED to FINISHED state. "task1" event consumed only 2ms hence, it is not included in the response array.
+![image](https://user-images.githubusercontent.com/71274361/142769494-bd2e64f8-52c4-4d52-917f-b07b6df8a6ea.png)
 
 NOTE: Due to device restriction, HSQLDB feature could not be incorporated. Therefore, the project is exclusive of DB connectivity.
